@@ -1,0 +1,78 @@
+body {
+  height: auto;
+  background-image: url(../img/bg1.jpg);
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000000;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #fc0b0b 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #ffffff;
+  box-shadow: 0 0 20px #080808;
+  border-radius: 5px;
+  display: block;
+}
+.btn-grad:hover {
+  background-position: right center;
+  color: #ffffff; 
+}
+
+.card-body {
+  color: #ffffff;
+}
+.sombra {
+  box-shadow: 3px 3px 6px #000000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+p {
+  font-size: small;
+}
+
+h2 {
+  font-weight: 600;
+  text-shadow: 3px 3px 6px #000000;
+}
+
+.glass {
+  background-color: #000000b0;
+}
+
+.img-card {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;  
+}
+
+@media (max-width: 600px) {
+  .flex-row {
+    flex-direction: column !important;
+  }
+  .img-card {
+    width: 50% !important;
+    align-self: center;
+    border-radius: 0;
+  }
+  .card {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #chartContainer {
+    height: max-content;
+    padding-bottom: 500px;
+    margin-bottom: 15px;
+  }
+}

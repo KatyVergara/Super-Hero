@@ -70,12 +70,12 @@ $(document).ready(function () {
                 let stats = [];
 
                 stats.push(
-                    { y: data.powerstats.intelligence, name: "Intelligence", color: "#3A4081" },
-                    { y: data.powerstats.strength, name: "Strength", color: "#2EA99C" },
-                    { y: data.powerstats.speed, name: "Speed", color: "#73F1DB" },
-                    { y: data.powerstats.durability, name: "Durability", color: "#FAAB5C" },
-                    { y: data.powerstats.power, name: "Power", color: "#ed5530" },
-                    { y: data.powerstats.combat, name: "Combat", color: "#C11400" }
+                    { y: data.powerstats.intelligence, name: "Intelligence", color: "#0C4624"},
+                    { y: data.powerstats.strength, name: "Strength", color: "#1A7838"},
+                    { y: data.powerstats.speed, name: "Speed", color: "#9FF70D"},
+                    { y: data.powerstats.durability, name: "Durability", color: "#FF5733"},
+                    { y: data.powerstats.power, name: "Power", color:"#C70039"},
+                    { y: data.powerstats.combat, name: "Combat", color: "#900C3F"}
                 );
 
                 let config = {
